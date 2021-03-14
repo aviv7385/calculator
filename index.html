@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/jquery-3.5.1.js"></script>
+    <script defer src="/main.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id="container">
+        <table>
+            <div id="display-container">
+                <input type="text" id="display" value="">
+                <span>&nbsp;</span>
+                <button id="remove-btn" onclick="reset()">Clear</button>
+            </div>
+            <tr>
+                <td onc>
+                    <button class="calc-btn" value="1" id="num1">1</button>
+                </td>
+                <td>
+                    <button class="calc-btn" value="2" id="num2">2</button>
+                </td>
+                <td>
+                    <button class="calc-btn" value="3" id="num3">3</button>
+                </td>
+                <td>
+                    <button class="calc-btn" value="+" id="plus">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="calc-btn" value="4" id="num4">4</button>
+                </td>
+                <td>
+                    <button class="calc-btn" value="5" id="num5">5</button>
+                </td>
+                <td>
+                    <button class="calc-btn" value="6" id="num6">6</button>
+                </td>
+                <td>
+                    <button class="calc-btn" value="-" id="minus">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="calc-btn" class="7" id="num7">7</button>
+                </td>
+                <td>
+                    <button class="calc-btn" value="8" id="num8">8</button>
+                </td>
+                <td>
+                    <button class="calc-btn" value="9" id="num9">9</button>
+                </td>
+                <td>
+                    <button class="calc-btn" value="*" id="multiply">*</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="calc-btn" value="0" id="zero">0</button>
+                </td>
+                <td>
+                    <button class="calc-btn" value="." id="decimal">.</button>
+                </td>
+                <td>
+                    <button class="calc-btn" value="/" id="divide">/</button>
+                </td>
+                <td>
+                    <button class="equal-btn" value="=" id="equal">=</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+</body>
+
+</html>
